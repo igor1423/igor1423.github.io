@@ -1,0 +1,84 @@
+div.style {
+    margin: 0px;
+	
+    background: #0e0e0e;
+    height: 100%;
+}
+
+body {
+	background: black;
+	font-size: 20px;
+	color: black;
+}
+
+.content {
+	background: #fff;
+	margin: 0 auto;
+}
+
+div { 
+ background-image: linear-gradient(to bottom right, white); 
+ width: 1145px; 
+}
+
+div { border-radius: 0px; }
+border-radius: 10px;
+
+div.menu-bar ul ul {
+	display: none;
+}
+
+/* Кнопка */
+.flare-button {
+  width: 100%;
+  max-width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  margin: 0 auto 30px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: RoyalBlue; /* Основной цвет кнопки */
+  box-shadow: 0 3px 3px white; /* Дополнительный цвет по бокам */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul.full-width{
+	width: 100%; /* Ширина основного блока меню */
+	height: 50px; /* Высота основного блока меню */
+	position: relative;
+	display: table;
+	margin: 0;
+}
+ul.full-width li {
+	display: table-cell;
+	position: relative;
+}
+
+ul.full-width li ul {
+	display: none; /* Скрываем выпадающее меню */
+	position: absolute;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+ul.full-width li ul li {
+	display: block;
+}
+ul.full-width li:hover ul {
+	display: block; /* Показываем выпадающее меню, где оно есть, при наведении */
+}
+
+html {
+	color: purple;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
